@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "node ./node_modules/.bin/pm2 start app.js -i max --attach"
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
