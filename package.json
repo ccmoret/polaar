@@ -1,0 +1,25 @@
+{
+  "name": "polaar.co",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.0.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-acrylic": "^0.1.1",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.8.2",
+    "react-youtube": "^7.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
