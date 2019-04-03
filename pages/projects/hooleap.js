@@ -34,7 +34,7 @@ class HooleapPage extends Component {
           <div className="row py-3">
             <div className="col-12">
               <h2 className="text-center font-serif regular">
-                Creacion de Hooleap, un Marketplece para Educacion en persona
+                Creacion de Hooleap, un Marketplece para Educacion en persona.
               </h2>
             </div>
           </div>
