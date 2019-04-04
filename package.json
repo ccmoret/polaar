@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "compression": "^1.7.4",
     "express": "^4.16.4",
     "next": "^8.0.1",
     "node-sass": "^4.11.0",
@@ -20,7 +21,7 @@
     "dev": "nodemon server/index.js",
     "build": "next build",
     "start": "next start",
-    "pm2-next": "next build && pm2 start ./node_modules/next/dist/bin/next-start"
+    "prod": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "Carlos Moret",
