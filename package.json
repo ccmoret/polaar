@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "Carlos Moret",
