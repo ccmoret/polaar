@@ -20,9 +20,7 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "build": "next build",
-    "start": "next start",
-    "export": "npm run build && next export",
-    "prod": "NODE_ENV=production node server/index.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "Carlos Moret",
