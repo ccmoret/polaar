@@ -144,8 +144,8 @@ class Index extends Component {
 
             <div className="row pt-5 pb-5">
               <div className="col-12 text-center">
-                <h6 className="h7 regular py-3">Carlos Moret</h6>
-                <h3 className="font-serif medium pb-2">Portafolio</h3>
+                <h6 className="h7 regular">Portafolio</h6>
+                <h3 className="font-serif medium pb-2">Carlos Moret</h3>
                 <h4 className="font-serif regular">Product Designer — Front-end Developer</h4>
                 {/* <h1>PRODUCT DESIGN — For creators, by creators</h1> */}
               </div>
