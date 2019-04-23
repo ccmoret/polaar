@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "build": "next build",
-    "start": "NODE_ENV=production PORT=80 node server.js"
+    "start": "NODE_ENV=production PORT=52.67.152.162 node server.js"
   },
   "keywords": [],
   "author": "Carlos Moret",
