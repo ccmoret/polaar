@@ -18,13 +18,13 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon index.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production node index.js",
     "prod": "next build && NODE_ENV=production node index.js"
   },
   "keywords": [],
   "author": "Carlos Moret",
   "license": "ISC",
-  "description": ""
+  "description": "Portfolio Product Design"
 }
