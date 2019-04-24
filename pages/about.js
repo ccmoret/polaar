@@ -165,7 +165,7 @@ class About extends Component {
     return (
       <div className="container padding-medium">
         <Head>
-          <title>About</title>
+          <title>Polaar - Carlos Moret</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <NavBar />

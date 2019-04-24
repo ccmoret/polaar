@@ -97,29 +97,27 @@ class Index extends Component {
 
     return projects.map(({ id, company, description, avatar, image, link, padding_top }) => {
       return (
-        <div key={id} className="col-lg-3 col-md-4 col-sm-6 col-12 px-2 py-3 align-end">
-          <div className="pb-5">
-            <Link href={link}>
-              <a className="png-cursor opacity-hover">
-                <div
-                  className="img"
-                  style={{ backgroundImage: `url(${image})`, paddingTop: `${padding_top}` }}
-                />
-                <div className="row mx-0 pt-3">
-                  <div className="col-12 text-center">
-                    <h6 className="h8 medium pt-2">{company}</h6>
-                    <h5
-                      className="font-serif underline light"
-                      style={{
-                        height: '100px'
-                      }}>
-                      <span className="">{description}</span>
-                    </h5>
-                  </div>
+        <div key={id} className="col-lg-3 col-md-4 col-sm-6 col-12 px-2 py-3 pb-5-3 align-end">
+          <Link href={link}>
+            <a className="png-cursor opacity-hover">
+              <div
+                className="img"
+                style={{ backgroundImage: `url(${image})`, paddingTop: `${padding_top}` }}
+              />
+              <div className="row mx-0 pt-3">
+                <div className="col-12 text-center">
+                  <h6 className="h8 medium pt-2">{company}</h6>
+                  <h5
+                    className="font-serif underline light"
+                    style={{
+                      height: '100px'
+                    }}>
+                    <span className="">{description}</span>
+                  </h5>
                 </div>
-              </a>
-            </Link>
-          </div>
+              </div>
+            </a>
+          </Link>
         </div>
       );
     });
@@ -127,10 +125,10 @@ class Index extends Component {
 
   render() {
     return (
-      <div className="container padding-small">
+      <div className="container">
         <div className="container-project">
           <Head>
-            <title>Polaar 🎾</title>
+            <title>Polaar - Carlos Moret</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           </Head>
           <NavBar />
@@ -144,9 +142,9 @@ class Index extends Component {
 
             <div className="row pt-5 pb-5">
               <div className="col-12 text-center">
-                <h6 className="h7 regular">Portafolio</h6>
-                <h3 className="font-serif medium pb-2">Carlos Moret</h3>
-                <h4 className="font-serif regular">Product Designer — Front-end Developer</h4>
+                <h3 className="font-serif medium pb-2">Portafolio</h3>
+                <h4 className="font-serif regular pb-2">Product Designer — Front-end Developer</h4>
+                <h6 className="h7 regular">Carlos Moret</h6>
                 {/* <h1>PRODUCT DESIGN — For creators, by creators</h1> */}
               </div>
             </div>

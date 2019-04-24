@@ -140,7 +140,7 @@ h4,
 
 h5,
 .h5 {
-  font-size: calc(16px + 4 * (100vw - 320px) / 1180);
+  font-size: calc(18px + 4 * (100vw - 320px) / 1180);
   line-height: 1.5;
   font-weight: $regular;
   color: $color-text;
@@ -193,6 +193,10 @@ h6,
 .center-y {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.pb-5-3 {
+  padding-bottom: 3rem;
 }
 
 .shadow {
@@ -388,6 +392,9 @@ a .smallLink {
     padding-right: 3vw;
     padding-left: 3vw;
   }
+  .pb-5-3 {
+    padding-bottom: 3rem;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 0px) {
@@ -400,5 +407,8 @@ a .smallLink {
     margin-bottom: 10vw;
     padding-right: 10vw;
     padding-left: 10vw;
+  }
+  .pb-5-3 {
+    padding-bottom: 1rem;
   }
 }

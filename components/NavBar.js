@@ -14,11 +14,11 @@ class NavBar extends Component {
   render() {
     return (
       <div className="pt-5">
-        <nav className="fixed-top nav-menu padding-medium">
+        <nav className="fixed-top nav-menu px-3">
           <span className="float-left">
             <Link href="/">
               <a className="">
-                <svg width="30" height="30">
+                <svg width="26" height="26">
                   <defs>
                     <linearGradient id="gradient1Polaar" x1=".8" y1=".8" x2="0">
                       <stop offset="0" stopColor="#c92bb7" />
@@ -31,7 +31,7 @@ class NavBar extends Component {
                   <stop offset=".35" stopColor="#f73344" />
                   <stop offset=".65" stopColor="#f73344" stopOpacity="0" /> */}
                     </radialGradient>
-                    <circle id="logoPolaar" cx="15" cy="15" r="15" />
+                    <circle id="logoPolaar" cx="12" cy="12" r="12" />
                   </defs>
 
                   <use xlinkHref="#logoPolaar" fill="url(#gradient1Polaar)" />
@@ -53,14 +53,9 @@ class NavBar extends Component {
                   <span className="nav-menu-inner">About</span>
                 </a>
               </Link>
-              <Link href="https://s3.eu-west-3.amazonaws.com/polaar/CV.pdf">
+              <Link href="https://s3.eu-west-3.amazonaws.com/polaar/CV-Carlos-Moret.pdf">
                 <a target="_blank" className="pr-4">
                   <span className="nav-menu-inner">CV</span>
-                </a>
-              </Link>
-              <Link href="/about">
-                <a className="pr-4">
-                  <span className="nav-menu-inner">Contact</span>
                 </a>
               </Link>
             </div>
