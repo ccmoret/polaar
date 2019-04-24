@@ -199,6 +199,13 @@ h6,
   padding-bottom: 3rem;
 }
 
+.p-5-1 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 .shadow {
   // background: #DDE1E5;
   border: 0 solid #dedede;
@@ -395,6 +402,12 @@ a .smallLink {
   .pb-5-3 {
     padding-bottom: 3rem;
   }
+  .p-5-1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 0px) {
@@ -410,5 +423,11 @@ a .smallLink {
   }
   .pb-5-3 {
     padding-bottom: 1rem;
+  }
+  .p-5-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }

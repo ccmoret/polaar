@@ -132,11 +132,11 @@ class About extends Component {
 
     return icons_dev_list.map(({ id, name, avatar, link }) => {
       return (
-        <div key={id} className="col-lg-6 pb-3">
+        <div key={id} className="col-lg-6 col-md-12 col-sm-6 col-12 pb-3">
           <Link href={link}>
             <a target="_blank">
               {this.renderAvatar(avatar)}
-              <span className="h4 pl-3 pt-2 regular">{name}</span>
+              <span className="h7 pl-3 pt-2 regular">{name}</span>
             </a>
           </Link>
         </div>
@@ -149,11 +149,11 @@ class About extends Component {
 
     return icons_design_list.map(({ id, name, avatar, link }) => {
       return (
-        <div key={id} className="col-lg-6 pb-3">
+        <div key={id} className="col-lg-6 col-md-12 col-sm-6 col-12 pb-3">
           <Link href={link}>
             <a target="_blank">
               {this.renderAvatar(avatar)}
-              <span className="h4 pl-3 pt-2 regular">{name}</span>
+              <span className="h7 pl-3 pt-2 regular">{name}</span>
             </a>
           </Link>
         </div>
@@ -163,73 +163,70 @@ class About extends Component {
 
   render() {
     return (
-      <div className="container padding-medium">
+      <div>
         <Head>
           <title>Polaar - Carlos Moret</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <NavBar />
-        <div>
-          <div>
-            <div className="row py-5">
-              <div className="col-4" />
-              <div className="col-4 ">
-                <h2>
-                  VSCO is a creative channel. We build creative tools, spaces, and connections
-                  driven by self-expression. Our mission is to help everybody fall in love with
-                  their own creativity.
-                </h2>
-              </div>
-              <div className="col-4" />
-            </div>
-            <div className="row pt-5">
-              <div className="col-12 pb-5">
-                <div
-                  className="img-4x3"
-                  style={{
-                    backgroundImage: `url(https://source.unsplash.com/8vKnV-Fvlmk/900x900)`
-                  }}
-                />
+        <div className="container padding-medium">
+          <div className="container-project">
+            <div className="row py-3">
+              <div className="col-12">
+                <h3 className="text-center font-serif medium">About</h3>
               </div>
             </div>
-            <hr />
+
+            <div className="row pt-3">
+              <div className="col-2 d-none d-sm-block d-md-block" />
+              <div className="col-md-8 col-12">
+                <h4 className="font-serif">
+                  Mi objetivo profesional es mejorar la vida de las personas a través de productos
+                  digitales centrados en el usuario, impactando positivamente en la sociedad,
+                  haciéndola más inclusiva, con libre acceso y democratizando las oportunidades.
+                </h4>
+              </div>
+              <div className="col-2 d-none d-sm-block d-md-block" />
+            </div>
+
             <div className="row pt-5">
-              <div className="col-6 center-y">
-                <div className="p-5">
-                  <h2 className="pb-3">Language & Libraries</h2>
-                  <h4 className="regular">
-                    A product designer who crafts genuine experiences through user interactions,
-                    visual design, and prototyping. Learning more about the future of data
-                    analytics, consumer products, and the science behind social interactions.
-                  </h4>
+              <div className="col-md-6 col-12 center-y">
+                <div className="p-5-1">
+                  <h4 className="font-serif pb-3">Lenguajes y librerias</h4>
+                  <h6 className="regular">
+                    Entre los mas importantes esta la creacion de proyectos usando una combinacion
+                    de React JS para el Front End, GraphQL para comunicar los datos con el Back End
+                    programado en NodeJS, MongoDB como base de datos y AWS como infraestructura.
+                  </h6>
                 </div>
               </div>
-              <div className="col-6">
-                <div className="p-5">
+              <div className="col-md-6 col-12">
+                <div className="p-5-1">
                   <div className="row">{this.renderIconsDevList()}</div>
                 </div>
               </div>
             </div>
             <div className="row py-5">
-              <div className="col-6 center-y">
-                <div className="p-5">
-                  <h2 className="pb-3">Design Software</h2>
-                  <h4 className="regular">
-                    Previously interned as a UX/UI Design Intern at vivovii, where I had the chance
-                    to work on research, design and development of B2B products. See who's behind
-                    the work, I don't bite.
-                  </h4>
+              <div className="col-md-6 col-12 center-y">
+                <div className="p-5-1">
+                  <h4 className="font-serif pb-3">Software de Diseño</h4>
+                  <h6 className="regular">
+                    Prototipado e interaccion para UX y UI con Figma, Sketch e InVision, son
+                    excelentes herraminetas para generar un canal entre diseño y programacion. El
+                    uso de estos software los complemento con el uso de programas de diseño base
+                    como lo es la Suite de Adobe.
+                  </h6>
                 </div>
               </div>
-              <div className="col-6">
-                <div className="p-5">
+              <div className="col-md-6 col-12">
+                <div className="p-5-1">
                   <div className="row">{this.renderIconsDesignList()}</div>
                 </div>
               </div>
             </div>
           </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
     );
   }

@@ -99,7 +99,7 @@ class Index extends Component {
       return (
         <div key={id} className="col-lg-3 col-md-4 col-sm-6 col-12 px-2 py-3 pb-5-3 align-end">
           <Link href={link}>
-            <a className="png-cursor opacity-hover">
+            <a className="opacity-hover">
               <div
                 className="img"
                 style={{ backgroundImage: `url(${image})`, paddingTop: `${padding_top}` }}
